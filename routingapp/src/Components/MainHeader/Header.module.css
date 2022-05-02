@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(92, 205, 167);  /* 29, 184, 240 */
+    padding: 0 10%;
+}
+
+.header nav{
+    height: 100%;
+}
+
+.header ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    /* background-color: pink; */
+}
+
+.header li {
+    margin: 0 1.5rem;
+    width: 5rem;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* //the link tag is resolved to anchor tag in console */
+.header a:hover,
+.header a.active{ 
+    color: yellow;
+    border-bottom: 4px solid green;
+}

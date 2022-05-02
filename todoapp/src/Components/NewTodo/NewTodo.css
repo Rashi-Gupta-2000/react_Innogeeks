@@ -1,0 +1,24 @@
+.new-todo {
+    background-color: rgb(157,224,224);
+    width: 50rem;
+    max-width: 95%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba((0,0,0,0.25), green, blue, alpha);
+}
+
+.btn {
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 1rem;
+
+}
+.btn:hover {
+    background-color: blue;
+    border-color: navy;
+}
