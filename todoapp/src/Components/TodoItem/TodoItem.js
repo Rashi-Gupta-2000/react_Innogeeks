@@ -25,7 +25,7 @@ function TodoItem(props) {
     //const {title,todoData,priority}=props;
 
     const buttonClickHandler = () =>{
-        settitle("this is the new title");
+        settitle("Task Done");
         // setTextchanged(true);
         setTextchanged((abc)=> !abc);
         setPriority("High");

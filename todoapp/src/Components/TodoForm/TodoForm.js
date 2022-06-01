@@ -2,7 +2,7 @@ import "./TodoForm.css";
 import { useState } from "react";
 const Todoform = (props) => {
     var utc= new Date().toJSON().slice(0,10);
-    const [title, setTitle] = useState("MY title");
+    const [title, setTitle] = useState("My Title");
     const [todoDate, setTodoDate] = useState(utc);
     const [priority, setPriority] = useState("");
 

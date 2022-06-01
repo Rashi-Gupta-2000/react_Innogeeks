@@ -29,16 +29,17 @@
 
 .todo-priority{
     font-size: 1rem;
-    background-color: aqua;
-    font-weight: bold;
+    background-color: pink;
+    /* font-weight: bold; */
     padding: 0.5rem;
     border-radius: 12px;
+    color: black;
 }
 
 .color1{
-    color:red;
+    color:yellow;
 }
 
 .color2{
-    color: blue;
+    color: red;
 }

@@ -4,11 +4,12 @@ import { useContext } from "react"
 import Authcontext from "../context"
 
 const Header = () => {
-    const ctx = useContext(Authcontext)
+    // const ctx = useContext(Authcontext)
     return (
         <header className={styles.header}>
             <nav>
-                <ul className={ctx.name}>
+                <ul> 
+                    {/* className={ctx.name} */}
                     <li>
                         {/*<Link to="/welcome">Welcome</Link>*/}
                         <NavLink 
